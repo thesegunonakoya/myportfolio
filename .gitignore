@@ -1,0 +1,10 @@
+.vercel
+api/
+robots.txt
+sitemap.xml
+pages/about.html
+pages/contact.html
+pages/experience.html
+pages/late.html
+pages/projects.html
+pages/technologies.html

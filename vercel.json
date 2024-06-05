@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/main.html" },
+    { "source": "/:path*.html", "destination": "/pages/:path*.html" }
+  ],
+
+  "redirects": [
+    { "source": "/about", "destination": "/about.html", "permanent": true },
+    { "source": "/experience", "destination": "/experience.html", "permanent": true },
+    { "source": "/contact", "destination": "/contact.html", "permanent": true },
+    { "source": "/technologies", "destination": "/technologies.html", "permanent": true },
+    { "source": "/about-me.html", "destination": "/about.html", "permanent": true },
+    { "source": "/my-experience.html", "destination": "/experience.html", "permanent": true },
+    { "source": "/get-in-touch.html", "destination": "/contact.html", "permanent": true }
+  ]
+}

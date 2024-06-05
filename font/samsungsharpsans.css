@@ -1,0 +1,24 @@
+@font-face {
+    font-family: samsung sharp sans;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Samsung Sharp Sans'), url(../font/samsungsharpsans.woff2) format('woff2'), url(../font/samsungsharpsans.woff) format('woff');
+}
+
+@font-face {
+    font-family: samsung sharp sans;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Samsung Sharp Sans'), url(../font/samsungsharpsans-medium.woff2) format('woff2'), url(../font/samsungsharpsans-medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: samsung sharp sans;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Samsung Sharp Sans'), url(../font/samsungsharpsans-bold.woff2) format('woff2'), url(../font/samsungsharpsans-bold.woff) format('woff');
+}
+
+body {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
