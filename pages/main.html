@@ -80,7 +80,7 @@
     <link rel="canonical" href="https://thesegunonakoya.me/">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <style>
         @import url('../font/samsungsharpsans.css');
@@ -251,19 +251,18 @@
     </section>
 
 
-
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('hamburger').addEventListener('click', function () {
                 document.getElementById('menu').classList.remove('hidden');
                 document.getElementById('hamburger').style.display = 'none';
-                document.getElementById('close').classList.add('visible'); // Show the close button
+                document.getElementById('close').classList.add('visible');
             });
 
             document.getElementById('close').addEventListener('click', function () {
                 document.getElementById('menu').classList.add('hidden');
                 document.getElementById('hamburger').style.display = 'inline-block';
-                document.getElementById('close').classList.remove('visible'); // Hide the close button
+                document.getElementById('close').classList.remove('visible');
             });
         });
     </script>

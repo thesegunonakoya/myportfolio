@@ -1,5 +1,6 @@
 .vercel
 api/
+node_modules/
 robots.txt
 sitemap.xml
 pages/about.html

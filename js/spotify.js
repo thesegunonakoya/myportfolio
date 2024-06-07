@@ -1,4 +1,3 @@
-// Function to fetch the currently playing song from your backend
 async function fetchCurrentlyPlaying() {
     const svgIcon = '<img src="../svg/spotify.svg" class="spotify-svg"/>';
     const currentlyPlayingElement = document.getElementById('currently-playing');
@@ -18,7 +17,7 @@ async function fetchCurrentlyPlaying() {
     }
 
     try {
-        const response = await fetch('../api/refreshAccessToken');
+        const response = await fetch('https://api.thesegunonakoya.me/api/spotify.js');
         if (!response.ok) {
             throw new Error('HTTP error ' + response.status);
         }
