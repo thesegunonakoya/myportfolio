@@ -3,6 +3,7 @@ api/
 node_modules/
 robots.txt
 sitemap.xml
+pages/about2.html
 pages/about.html
 pages/contact.html
 pages/experience.html
