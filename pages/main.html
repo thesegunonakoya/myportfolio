@@ -140,7 +140,7 @@
         <section class="bg-[#111318]">
             <div class="w-full overflow-hidden spotify-bg py-3">
                 <div class="scrolling-text">
-                    <p id="currently-playing" class="text-[0.65rem] md:text-[0.7rem] font-semibold md:font-semibold text-[#E2EAFD]"><span
+                    <p id="currently-playing" class="text-[0.65rem] md:text-[0.7rem] font-semibold md:font-medium text-[#E2EAFD]"><span
                             style="visibility: hidden;">Loading...</span>
                     </p>
                 </div>
@@ -153,20 +153,20 @@
                     <div id="menu" class="hidden md:flex font-base md:gap-4 md:text-sm" role="navigation"
                         aria-label="Main Menu">
                         <a href="../"
-                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(92, 135, 246);">Home</a>
+                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(137, 148, 174);">Home</a>
                         <a href="#"
-                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(92, 135, 246);">About
+                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(137, 148, 174);">About
                             Me</a>
                         <a href="#"
-                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(92, 135, 246);">Experience</a>
+                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(137, 148, 174);">Experience</a>
                         <a href="#"
-                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(92, 135, 246);">My
+                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(137, 148, 174);">My
                             Tech Stack</a>
                         <a href="#"
-                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(92, 135, 246);">Projects
+                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(137, 148, 174);">Projects
                         </a>
                         <a href="#"
-                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(92, 135, 246);">Get
+                            class="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation" style="color: rgb(137, 148, 174);">Get
                             In
                             Touch</a>
                         <button id="close" class="close-btn hidden w-8 h-8 items-center justify-center"
@@ -209,17 +209,30 @@
             I'm a passionate full-stack
             software developer, mostly proficient in a range of technologies including JavaScript, HTML, CSS, Tailwind,
             PHP, WordPress, Bootstrap, MySQL, and Git. </h2>
-        <div class="md:flex grid-row-1 md:gap-5">
-            <div><button
-                    class="flex gap-2 mt-5 px-5 py-4 font-semibold md:font-medium text-xs md:text-sm button-bg" style="color: rgb(92, 135, 246); border-color: rgb(32, 36, 45); border-width: 1px;">Download
-                    Resume <img class="w-4 h-4 md:w-5 md:h-5" src="../svg/top-right.svg" alt="download"></button></div>
-            <div class="hidden md:block"><a href="https://thesegunonakoya.me/contact.html"
-                    class="flex gap-2 mt-5 px-5 py-[15px] font-semibold md:font-semibold text-xs md:text-sm bg-transparent underline-animation text-[#E2EAFD]">Get In Touch</a></div>
-        </div>
+            <div class="md:flex items-center grid-row-1 md:gap-5">
+                <div>
+                    <button
+                        class="flex gap-2 mt-5 px-5 py-4 font-semibold md:font-medium text-xs md:text-sm button-bg"
+                        style="color: rgb(92, 135, 246); border-color: rgb(32, 36, 45); border-width: 1px;">
+                        Download Resume <img class="w-4 h-4 md:w-5 md:h-5" src="../svg/top-right.svg" alt="download">
+                    </button>
+                </div>
+                <div class="hidden md:block">
+                    <a href="https://thesegunonakoya.me/contact.html"
+                        class="gitouch flex gap-2 mt-5 px-5 py-[15px] font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE]">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            
     </main>
 
 
     <style>
+        .gitouch:hover {
+            color: rgb(92, 135, 246);
+        }
+
         .underline-animation {
             position: relative;
             display: inline-block;
@@ -230,16 +243,16 @@
             left: 0;
             bottom: -2px;
             width: 100%;
-            height: 2px;
-            background-color: rgb(92, 135, 246);
+            height: 1px;
+            background-color: rgb(137, 148, 174);
             transform: scaleX(0);
-            transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+            transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
             transform-origin: bottom right;
         }
         .underline-animation:hover::after {
             transform: scaleX(1);
             transform-origin: bottom left;
-            background-color: rgb(92, 135, 246); 
+            background-color: rgb(137, 148, 174); 
         }
     </style>
 
