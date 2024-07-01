@@ -30,7 +30,7 @@ async function fetchCurrentlyPlaying() {
         }
 
         const artistName = data.item.artists[0].name;
-        currentlyPlayingElement.innerHTML = svgIcon + "I'm currently listening to '" + data.item.name + "'  by " + artistName + '&nbsp;&nbsp;&nbsp;🎧&nbsp;📀&nbsp;' + endText;
+        currentlyPlayingElement.innerHTML = svgIcon + "I'm currently listening to &nbsp;<span style='color: rgb(92, 135, 246);'>" + data.item.name + "</span>&nbsp;  by " + artistName + '&nbsp;&nbsp;&nbsp;🎧&nbsp;📀&nbsp;' + endText;
 
     } catch (error) {
         console.error('Error fetching currently playing track:', error);
