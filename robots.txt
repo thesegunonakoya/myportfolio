@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /pages/
+Disallow: /api/
+Disallow: /js/
+Disallow: /font/
+Disallow: /node_modules/
+Disallow: /svg/
+
+Sitemap: https://thesegunonakoya.me/sitemap.xml
+
+User-agent: *
+Crawl-delay: 10
