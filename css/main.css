@@ -123,6 +123,10 @@ body {
     background: #15181e;
 }
 
+.button-bg:hover {
+    color: #ff0000; 
+}
+
 .spotify-svg {
     display: inline-block;
     vertical-align: middle;
